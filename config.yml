@@ -1,0 +1,8 @@
+tasks:
+  tv-tasks:
+    rss:
+    quality: 1080p
+    series:
+      - Asoka
+      - Its Always Sunny In Philadelphia
+    download: ~/tor/watch/tv_1
