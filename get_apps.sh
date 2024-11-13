@@ -13,7 +13,7 @@ for package in "${packages[@]}"; do
         echo "$package is already installed."
     else
         echo "Installing $package..."
-        sudo apt install "$package" -y
+        sudo DEBIAN_FRONTEND=noninteractive apt-get install "$package" -y
 
         # Check if the installation was successful
         if dpkg -s "$package" &>/dev/null; then
