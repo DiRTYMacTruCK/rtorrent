@@ -1,8 +1,19 @@
+##### basic new install
+##### first make a directory to clone repositories
+
 mkdir build
+
+git clone https://github.com/DiRTYMacTruCK/rtorrent ./build
+
 cd build
-git clone https://github.com/DiRTYMacTruCK/rtorrent ./
+
+### run the following command to install most of the apps.
+
+sudo bash get_apps.sh
 
 cd
+
+##### still working on automating the rest of this.
 
 mkdir flexget
 mkdir tor
@@ -11,16 +22,6 @@ mkdir tor/watch_2
 mkdir .session
 mkdir download_1
 mkdir download_2
-
-
-sudo apt update
-sudo apt upgrade -y
-sudo apt install python3 -y
-sudo apt install python3-virtualenv -y
-sudp apt install python3-pip -y
-sudp apt install screen -y
-sudo apt install rtorrent -y
-sudo apt install emacs -y
 
 
 git clone https://github.com/Flexget/Flexget.git ~/flexget
