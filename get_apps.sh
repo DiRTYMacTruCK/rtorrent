@@ -23,3 +23,12 @@ for package in "${packages[@]}"; do
         fi
     fi
 done
+
+cd ~
+mkdir flexget
+mkdir tor
+mkdir tor/watch_1
+mkdir tor/watch_2
+mkdir .session
+mkdir download_1
+mkdir download_2
