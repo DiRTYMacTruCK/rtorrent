@@ -24,9 +24,14 @@ for package in "${packages[@]}"; do
     fi
 done
 
+#uset frontend
 unset DEBIAN_FRONTEND
 
+# cd back into the home dir
 cd ~
 
+# create needed folders
+echo "Creating directories in the home directory"
 mkdir -p flexget tor tor/watch_1 tor/watch_2 .session download_1 download_2
 
+echo "Insallation complete"
