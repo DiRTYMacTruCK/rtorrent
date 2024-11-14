@@ -1,4 +1,5 @@
 #!/bin/bash
+set -x
 
 # Define the list of packages to install
 packages=("python3" "screen" "python3-virtualenv" "python3-pip" "rtorrent" "emacs")
