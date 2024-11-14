@@ -29,7 +29,7 @@ done
 unset DEBIAN_FRONTEND
 
 # cd back into the home dir
-cd ~
+cd "$HOME"
 
 # create needed folders
 echo "Creating directories in the home directory"
