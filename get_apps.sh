@@ -24,11 +24,9 @@ for package in "${packages[@]}"; do
     fi
 done
 
+unset DEBIAN_FRONTEND
+
 cd ~
-mkdir flexget
-mkdir tor
-mkdir tor/watch_1
-mkdir tor/watch_2
-mkdir .session
-mkdir download_1
-mkdir download_2
+
+mkdir -p flexget tor tor/watch_1 tor/watch_2 .session download_1 download_2
+
